@@ -1,0 +1,27 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style-type: none;
+}
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 50%;
+  }
+  
+td, th {
+	border: 1px solid #dddddd;
+	text-align: center;
+	padding: 8px;
+}
+.red-beli{
+	background-color: white;
+}
+.red-sivi{
+	background-color: #c2c2c2;
+}

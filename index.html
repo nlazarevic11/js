@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nikola js</title>
+	<meta charset="utf-8" />
+	
+	<!--Bootrstrap link-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	
+	<!--Fontawsome link-->
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+	<!-- Template CSS -->
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body class="d-flex justify-content-center flex-wrap">
+
+
+	
+
+
+
+	<form id="form" class="col-6">
+
+		<div class="my-3 mx-3">
+			<label for="inputID">ID:</label>
+			<input type="text" name="inputID" id="inputID">
+			<span id="spanID" class="text-danger mb-4"></span><br>
+		</div>
+		
+		<div class="my-3 mx-3">
+			<label for="inputNaziv">Naziv:</label>
+			<input type="text" name="inputNaziv" id="inputNaziv">
+			<span id="spanNaziv" class="text-danger mb-4"></span><br>
+		</div>
+		
+		<div class="my-3 mx-3">
+			<label for="inputZanr">Zanr:</label>
+			<input type="text" name="inputZanr" id="inputZanr">
+			<span id="spanZanr" class="text-danger mb-4"></span><br>
+		</div>
+		
+		<div class="my-3 mx-3">
+			<label for="inputReziser">Reziser:</label>
+			<input type="text" name="inputReziser" id="inputReziser">
+			<span id="spanReziser" class="text-danger mb-4"></span><br>
+		</div>
+		
+		<div class="my-3 mx-3">
+			<label for="inputGlavnaUloga">Glavna uloga:</label>
+			<input type="text" name="inputGlavnaUloga" id="inputGlavnaUloga">
+			<span id="spanGlavnaUloga" class="text-danger mb-4"></span><br>
+		</div>
+		
+		<div class="my-3 mx-3">
+			<label for="inputIMDB">IMDB:</label>
+			<input type="text" name="inputIMDB" id="inputIMDB">
+			<span id="spanIMDB" class="text-danger mb-4"></span><br>
+		</div>
+		
+		<div class="my-3 mx-3">
+			<label for="inputGodina">Godina:</label>
+			<input type="text" name="inputGodina" id="inputGodina">
+			<span id="spanGodina" class="text-danger mb-4"></span><br>
+		</div>
+
+		<input type="submit" value="Dodaj novi" class="my-3 mx-3 btn btn-success">
+	</form>
+
+	<div class=" col-6">
+		<h1 class="col-12">Tabela filmova</h1>
+		<table id="table" class="col-12">
+			<!-- javascript ispis -->
+		</table>
+
+	</div>
+
+
+	<!-- Drugi deo zadatka - timer -->
+	<h1 id="divOdbrojavanje" class="col-4 text-dark text-center"></h1>
+
+	<div id="izraz"class="col-4 text-dark">
+		<form id="formaIzraz">
+			<div id="teloIzraza"></div>
+			<input type="text" name="rezultat" id="rezultat">
+			<input type="button" value="Posalji odgovor" id="dugmeRez" class="m-3 btn btn-dark">
+		</form>
+	</div>
+
+
+
+
+	<script src="main.js"></script>
+</body>
+</html>
